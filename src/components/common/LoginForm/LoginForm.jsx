@@ -99,12 +99,25 @@ const LoginForm = () => {
             alt="login_illustration"
             className="w-[100%] sm:w-auto sm:h-[calc(100dvh-440px)] md:h-[calc(100dvh-440px)]  ml-auto sm:mx-auto md:mx-auto "
           /> */}
+          {/* <div className="w-[100%] sm:w-auto sm:h-[calc(100dvh-440px)] md:h-[calc(100dvh-440px)]  ml-auto sm:mx-auto md:mx-auto ">
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=Y0cf2U1IHl4"
+              controls={true}
+              // onError={testCloseOnError}
+              // width={'50%'}
+              // height={'50%'}
+              muted={true}
+              playing={true}
+              pip={true}
+              stopOnUnmount={false}
+            />
+          </div> */}
           <ReactPlayer
             url="https://www.youtube.com/watch?v=Y0cf2U1IHl4"
             controls={true}
             // onError={testCloseOnError}
-            // width={'50%'}
-            // height={'50%'}
+            width={'auto'}
+            height={'auto'}
             muted={true}
             playing={true}
             pip={true}
