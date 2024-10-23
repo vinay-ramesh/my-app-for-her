@@ -1,0 +1,20 @@
+.mobileslider {
+  height: calc(100dvh - 84px);
+  @apply transition-all duration-200 absolute top-0 left-0 z-10  bg-indigo-700 w-full;
+}
+.sidebar_main {
+  @apply sticky top-0 z-10 w-full transition-all duration-200 max-h-dvh;
+}
+.mobileslider {
+  height: calc(100dvh - 84px);
+  @apply transition-all duration-200 left-0  bg-indigo-700 w-full max-w-72 absolute;
+  z-index: 1000;
+}
+.sidebarwraper {
+  @apply absolute w-full opacity-100 bg-opacity-75  inset-0 z-0 bg-black;
+  height: calc(100dvh - 84px);
+}
+.bodyContainer {
+  @apply w-full  mt-4 overflow-y-auto;
+  height: calc(100% - 100px);
+}

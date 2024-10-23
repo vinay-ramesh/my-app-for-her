@@ -1,0 +1,8 @@
+.drawermain {
+  @apply fixed top-0 right-0 z-50 w-full h-dvh;
+  backdrop-filter: blur(4px);
+}
+.wraper {
+  @apply drop-shadow-2xl sm:fixed md:fixed absolute sm:bottom-0 md:bottom-0 sm:left-0 md:left-0 left-1/2 bottom-1/2 sm:translate-x-0 md:translate-x-0 sm:translate-y-0 md:translate-y-0  -translate-x-1/2 translate-y-1/2 rounded-xl sm:w-full md:w-full w-[60%] px-4 py-4 bg-white sm:rounded-t-lg md:rounded-t-xl sm:border-x-0 max-w-[880px]  sm:rounded-b-none md:rounded-b-none border border-gray-300 transition ease-in-out lg:overflow-y-scroll;
+  min-height: 50%;
+}

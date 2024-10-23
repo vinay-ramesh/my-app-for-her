@@ -1,0 +1,12 @@
+.sidebar_main {
+  @apply sticky top-0 z-10 w-full transition-all duration-200 max-h-dvh;
+  z-index: 1000;
+}
+.mobileslider {
+  height: calc(100dvh - 84px);
+  @apply transition-all duration-200 left-0 z-10  bg-indigo-700 w-full max-w-72 absolute;
+}
+.sidebarwraper {
+  @apply absolute top-0 w-full opacity-100 bg-opacity-75  inset-0 z-20 bg-black;
+  height: calc(100dvh - 84px);
+}

@@ -1,0 +1,9 @@
+.trendWraper {
+  @apply flex h-full w-full items-center;
+}
+/* .trendWraper > div > canvas {
+  @apply !w-[100%]  lg:!h-[320px];
+} */
+.chartwraper {
+  @apply w-full h-full;
+}

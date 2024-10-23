@@ -1,0 +1,35 @@
+.tableWraper {
+  @apply relative h-[24rem]  sm:rounded-lg max-h-96 sm:max-h-72 md:max-h-72 overflow-auto block;
+}
+.tableWraper::-webkit-scrollbar {
+  width: 5px;
+}
+
+.tableWraper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.tableWraper::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+.tableWraper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.tableWraper::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+
+.tableWraper::-webkit-scrollbar-track:horizontal {
+  background: #f1f1f1;
+}
+
+.tableWraper::-webkit-scrollbar-thumb:horizontal {
+  background: #888;
+  border-radius: 8px;
+}
+
+.tableWraper::-webkit-scrollbar-thumb:hover:horizontal {
+  background: #555;
+}

@@ -1,0 +1,8 @@
+.sidebar_main {
+  @apply transition-all duration-200 bg-indigo-700 h-screen;
+  width: 300px;
+}
+.sidebar_main_srink {
+  @apply transition-all duration-200 bg-indigo-700 h-screen;
+  width: 100px;
+}

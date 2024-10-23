@@ -1,0 +1,11 @@
+.barChartWraper > div > canvas {
+  @apply h-[320px]  w-full;
+}
+
+.speedometerWraper {
+  @apply justify-end;
+}
+
+.speedometerWraper > div > div > svg {
+  @apply !w-full sm:!h-full;
+}

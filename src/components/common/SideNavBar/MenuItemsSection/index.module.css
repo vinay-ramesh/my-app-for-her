@@ -1,0 +1,26 @@
+.menuitem_main {
+  @apply flex flex-col bg-indigo-700 overflow-y-auto  text-white w-fit mx-auto  py-7;
+  height: calc(100dvh - 358px);
+}
+.menuitem_mainopen {
+  @apply flex flex-col bg-indigo-700  text-white w-fit mx-auto  py-7;
+  height: calc(100dvh - 307px);
+}
+
+.menuitem_mainmob {
+  @apply flex flex-col bg-indigo-700 !overflow-y-auto  text-white w-fit mx-auto  py-7;
+  height: calc(100dvh - 307px);
+}
+.menu_inactive {
+  @apply flex gap-6 flex-shrink-0 my-2 cursor-pointer text-white px-4 py-0.5 w-fit;
+}
+.menu_active {
+  @apply flex gap-6 flex-shrink-0  my-2 cursor-pointer bg-gray-25 text-indigo-900 rounded-lg px-4 py-0.5;
+}
+.imagemenu_active {
+  @apply self-stretch;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(16%) saturate(6763%) hue-rotate(229deg) brightness(93%) contrast(92%);
+}
+.imagemenu {
+  @apply self-stretch;
+}
